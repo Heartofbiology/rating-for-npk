@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Soil Service Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h1>🌱 Rate Our Service</h1>
+    <p>Your feedback helps us improve!</p>
+
+    <div class="rating">
+        <span onclick="rate(1)">⭐</span>
+        <span onclick="rate(2)">⭐</span>
+        <span onclick="rate(3)">⭐</span>
+        <span onclick="rate(4)">⭐</span>
+        <span onclick="rate(5)">⭐</span>
+    </div>
+
+    <textarea id="comment" placeholder="Write your comment..."></textarea>
+
+    <button onclick="submitFeedback()">Submit</button>
+
+    <h2>📢 User Feedback</h2>
+    <div id="feedbackList"></div>
+</div>
+
+<!-- IMPORTANT: module type -->
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
