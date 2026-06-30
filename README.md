@@ -1,1 +1,0 @@
-# rating-for-npk
